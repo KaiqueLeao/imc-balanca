@@ -15,25 +15,51 @@
                 <h1>Qual sua idade?</h1>
             </div>
             <div class="row justify-content-md-center">
-                <button class="btn-primary tamanho-botao">1</button>
-                <button class="btn-primary tamanho-botao">2</button>
-                <button class="btn-primary tamanho-botao">3</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">1</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">2</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">3</button>
             </div>
             <div class="row justify-content-md-center">
-                <button class="btn-primary tamanho-botao">4</button>
-                <button class="btn-primary tamanho-botao">5</button>
-                <button class="btn-primary tamanho-botao">6</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">4</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">5</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">6</button>
             </div>
             <div class="row justify-content-md-center">
-                <button class="btn-primary tamanho-botao">7</button>
-                <button class="btn-primary tamanho-botao">8</button>
-                <button class="btn-primary tamanho-botao">9</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">7</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">8</button>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">9</button>
             </div>
             <div class="row justify-content-md-center">
-                <button class="btn-primary tamanho-botao">X</button>
-                <button class="btn-primary tamanho-botao">0</button>
-                <button class="btn-primary tamanho-botao">ok</button>
-            </div>                
+                <a type="button" class="btn btn-outline-primary tamanho-botao" href="#" onclick="limparIdade()">x</a>
+                <button type="button" class="btn btn-outline-primary tamanho-botao">0</button>
+                <a type="button" class="btn btn-outline-primary tamanho-botao" href="#bloco-sexo">ok</a>
+            </div>   
+            
+            <div class="row justify-content-md-center">
+                <div class="valor-idade"></div>
+            </div>
+
+
+            <div class="box-sexo__tamanho">
+                <div class="row justify-content-md-center espaco-superior__bloco-sexo" id="bloco-sexo">
+                    <h1>Qual seu sexo?</h1>                
+                </div>
+
+                <div class="row justify-content-md-center">
+                    <form class="toggle">
+            
+                        <input type="radio" id="choice1" name="choice" value="creative">
+                        <label for="choice1">Masculino</label>
+            
+                        <input type="radio" id="choice2" name="choice" value="productive">
+                        <label for="choice2">Feminino</label>
+            
+                        <div id="flap"><span class="content">productive</span></div>
+            
+                    </form>
+                </div>
+            </div>
+
         </div>
     
     <script src="js/vendor/jquery-3.2.1.slim.min.js"></script>
